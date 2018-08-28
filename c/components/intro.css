@@ -1,0 +1,39 @@
+/*
+*************************************************
+
+Novum
+intro
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-intro {
+  width: 100%;
+  float: left;
+  z-index: 2;
+  top: 0;
+  left: 0; }
+  @media screen and (min-width: 950px) {
+    .nv-c-introFlag {
+      width: 15%;
+      margin: 0;
+      float: right;
+      padding: 10%;
+      font-size: 60px;
+      line-height: 70px;
+      text-align: left; } }
+  .nv-c-introContent {
+    width: 100%;
+    box-sizing: border-box; }
+    @media screen and (min-width: 950px) {
+      .nv-c-introContent {
+        width: 50%;
+        margin: 0;
+        margin-top: 16px;
+        padding: 10%;
+        text-align: left;
+        float: left;
+        border-right: 1px solid #696969; } }

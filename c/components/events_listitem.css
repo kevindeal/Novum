@@ -1,0 +1,56 @@
+/*
+*************************************************
+
+Novum
+List 
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-events_listitem {
+  margin-left: 0;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #f171b8;
+  box-shadow: 5px 10px 18px #473543;
+  max-height: 600px;
+  overflow: hidden; }
+  @media screen and (min-width: 950px) {
+    .nv-c-events_listitem {
+      margin-top: 32px; } }
+  .nv-c-events_listitem img {
+    height: auto;
+    width: 100%; }
+    @media screen and (min-width: 950px) {
+      .nv-c-events_listitem img {
+        width: 100%;
+        max-height: 1000px; } }
+
+.nv-c-events_listitem--blue {
+  margin-left: 0;
+  margin-top: 8px;
+  margin-bottom: 28px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #1b26c2;
+  box-shadow: 5px 10px 18px #303046;
+  max-height: 400px;
+  overflow: hidden;
+  display: none; }
+  @media screen and (min-width: 950px) {
+    .nv-c-events_listitem--blue {
+      width: 100%;
+      max-height: 1000px;
+      margin-top: 32px; } }
+  .nv-c-events_listitem--blue img {
+    height: auto;
+    width: 100%; }
+    @media screen and (min-width: 950px) {
+      .nv-c-events_listitem--blue img {
+        width: 100%;
+        max-height: 1000px; } }

@@ -1,0 +1,53 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+.nv{
+    &-c{
+        &-eventsHeader{
+            
+            &-gallery{
+                position:relative;
+                width:100%;
+                top:0;
+                left:0;
+            }
+        }
+    }
+}
+
+.nv{
+    &-c{
+        &-onerow{
+            width:100%;
+            background:rgba(17, 17, 17, 0.897);
+            height:60%;
+            overflow:scroll;
+            position:absolute;
+            z-index: 2;
+            top:30%;
+            left:0;
+            box-sizing: border-box;
+            padding:8px;
+
+            @media screen and (min-width: 950px) {
+                top:32px;
+                left:50%;
+                width:625px;
+                margin-left:-312.5px;
+                height:90%;
+                
+            }
+
+            img{
+                width:100%;
+                height:auto;
+                margin-top:1px;
+                margin-bottom:1px;
+            }
+        }
+
+    }
+}
+

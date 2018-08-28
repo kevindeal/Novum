@@ -1,0 +1,53 @@
+.nv{
+    &-c{
+        &-bio{
+            
+            
+            // background:red;
+            width:100%;
+            float:left;
+            // margin-left:10px;
+            // padding-left:16px;
+            // padding-right:16px;
+            padding-top:50px;
+            padding-bottom:50px;
+           
+
+
+            &Headshot{
+                width:200px;
+                margin-bottom:50px;
+                // position:relative;
+                // top:0;
+                // left:0;
+                // border-radius:47%;
+                
+            }
+
+            &Info{
+                // background:green;
+                margin:0 auto;
+                
+                @media screen and (min-width: 950px) {
+                    max-width:700px;
+                                     
+                }
+            }
+
+            //media queries
+            @media screen and (min-width: 750px) {
+                
+            }
+
+            @media screen and (min-width: 950px) {
+                
+            }
+
+            @media screen and (min-height: 900px) {
+            
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,92 @@
+/*
+*************************************************
+
+Novum
+Fonts
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal  
+*************************************************
+*/
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+.nv-c-body {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 14px; }
+
+header {
+  font-size: 1.5em;
+  color: #e4e4d1;
+  line-height: 25px;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Archivo Black', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #ffffe8;
+  text-transform: uppercase; }
+
+.nv-c-wrapper {
+  text-align: center; }
+  .nv-c-wrapper p {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: .1em;
+    color: #e4e4d1; }
+
+.nv-c-nav {
+  font-size: 13px;
+  letter-spacing: .4em;
+  font-family: 'Archivo Narrow', sans-serif; }
+
+.nv-c-introElevatorpitch {
+  margin-top: 80px;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 60px;
+  width: 95%;
+  letter-spacing: .001em;
+  text-transform: uppercase; }
+
+.nv-c-introFlag {
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  text-align: center;
+  color: #e4e4d1; }
+
+.nv-c-bio strong {
+  font-style: italic;
+  font-size: 14px; }
+
+.nv-c-merch-wrap h1 {
+  text-align: center;
+  margin-top: 150px;
+  line-height: 120px; }
+  .nv-c-merch-wrap h1 h2 {
+    font-size: 12px;
+    padding-top: 16px; }
+
+.nv-c-gallery {
+  text-align: center; }
+  .nv-c-gallery header {
+    padding: 8px; }
+  .nv-c-gallery p {
+    padding: 2px;
+    color: #808080; }
+  @media screen and (min-width: 950px) {
+    .nv-c-gallery header {
+      font-size: 2em; }
+    .nv-c-gallery p {
+      font-size: 1.15em; } }

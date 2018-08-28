@@ -1,0 +1,80 @@
+/*
+*************************************************
+
+Novum
+Events Header
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv{
+    &-c{
+        &-eventsHeader{
+
+            top:30%;
+            left:50%;
+            margin-left:-125px;
+            width:250px;
+            padding:16px;
+            position: absolute;
+            background:rgba(17, 17, 17, 0.897);
+            border-radius:7%;
+           
+            @media screen and (min-width: 950px) {
+                
+                width:650px;
+                padding:48px;
+                // top:50%;
+                left:50%;
+                margin-left:-350px;
+                border-radius:1%;
+                font-size:32px;
+            }
+           
+
+            &_date{
+                padding:8px;
+                
+                @media screen and (min-width: 950px) {
+                    width:600px;
+                    padding:24px;
+                    font-size:2em;
+                    line-height:64px;
+                    letter-spacing:.1em;
+                }   
+            }
+            &_cta{
+                text-align:center;
+
+
+                &-button{
+                    background:#c90057;
+                    font-size:.8em;
+                    letter-spacing:1px;
+                    text-transform:uppercase;
+                    padding:16px 25px;
+                    color:#ffffff;
+                    border:none;
+                    border-radius: 0px;
+                    -webkit-border-radius:0px;
+                    -webkit-appearance: none;
+                }
+
+                
+            }
+            &--blue{
+                display:none;
+
+
+                &_cta{
+                    text-align:center;
+    
+    
+                }
+            }
+        }
+    }
+}

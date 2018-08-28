@@ -1,0 +1,604 @@
+/*
+*************************************************
+
+Novum
+Layout
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+html {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+body {
+  margin: 0;
+  background-color: black;
+  position: relative;
+  z-index: 1; }
+
+h1 {
+  margin: 0; }
+
+.videoContainer {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background: black;
+  height: 100vh;
+  top: 0;
+  left: 0; }
+  .videoContainer .video_inner {
+    width: 100%;
+    height: 100vh; }
+  .videoContainer iframe {
+    display: block;
+    /* iframes are inline by default */
+    background: transparent;
+    border: none;
+    /* Reset default border */
+    width: 100vw; }
+
+.content .nv-c-events_listitem {
+  display: none; }
+  .content .nv-c-events_listitem--blue {
+    display: block; }
+
+.content .nv-c-eventsHeader {
+  display: none; }
+  .content .nv-c-eventsHeader--blue {
+    display: block;
+    top: 30%;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+    padding: 16px;
+    position: absolute;
+    background: rgba(17, 17, 17, 0.897);
+    border-radius: 7%; }
+    @media screen and (min-width: 950px) {
+      .content .nv-c-eventsHeader--blue {
+        width: 650px;
+        padding: 48px;
+        left: 50%;
+        margin-left: -350px;
+        border-radius: 1%;
+        font-size: 32px; } }
+    .content .nv-c-eventsHeader--blue button {
+      background: #2c00c9;
+      font-size: .8em;
+      width: 150px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 16px 25px;
+      color: #ffffff;
+      border: none;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -webkit-appearance: none; }
+
+/*
+*************************************************
+
+Novum
+Fonts
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal  
+*************************************************
+*/
+.nv-c-body {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 14px; }
+
+header {
+  font-size: 1.5em;
+  color: #e4e4d1;
+  line-height: 25px;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Archivo Black', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #ffffe8;
+  text-transform: uppercase; }
+
+.nv-c-wrapper {
+  text-align: center; }
+  .nv-c-wrapper p {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: .1em;
+    color: #e4e4d1; }
+
+.nv-c-nav {
+  font-size: 13px;
+  letter-spacing: .4em;
+  font-family: 'Archivo Narrow', sans-serif; }
+
+.nv-c-introElevatorpitch {
+  margin-top: 80px;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 60px;
+  width: 95%;
+  letter-spacing: .001em;
+  text-transform: uppercase; }
+
+.nv-c-introFlag {
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  text-align: center;
+  color: #e4e4d1; }
+
+.nv-c-bio strong {
+  font-style: italic;
+  font-size: 14px; }
+
+.nv-c-merch-wrap h1 {
+  text-align: center;
+  margin-top: 150px;
+  line-height: 120px; }
+  .nv-c-merch-wrap h1 h2 {
+    font-size: 12px;
+    padding-top: 16px; }
+
+.nv-c-gallery {
+  text-align: center; }
+  .nv-c-gallery header {
+    padding: 8px; }
+  .nv-c-gallery p {
+    padding: 2px;
+    color: #808080; }
+  @media screen and (min-width: 950px) {
+    .nv-c-gallery header {
+      font-size: 2em; }
+    .nv-c-gallery p {
+      font-size: 1.15em; } }
+
+/*
+*************************************************
+
+Novum
+header
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-header {
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  left: 0; }
+  .nv-c-header_logo img {
+    margin-bottom: 20px;
+    margin-top: 32px;
+    margin-left: 8px;
+    margin-right: 8px; }
+
+.nv-c-nav {
+  width: 100%;
+  background: black;
+  z-index: 2;
+  top: 0;
+  left: 0; }
+  .nv-c-nav_list li {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 3px; }
+    .nv-c-nav_list li:before {
+      left: 0;
+      bottom: 0;
+      width: 93%;
+      height: 2.5px;
+      background: -webkit-linear-gradient(left top, #531247, #a4137d, #b81380, #cc1581, #e01981);
+      transform: scaleX(0); }
+    .nv-c-nav_list li:hover:before {
+      transform: scaleX(1); }
+    .nv-c-nav_list li:before, .nv-c-nav_list li:after {
+      content: '';
+      position: absolute;
+      transition: transform .3s ease; }
+  .nv-c-nav_list li:first-child {
+    margin-top: 8px;
+    margin-left: 8px;
+    top: 0;
+    left: 0; }
+  .nv-c-nav_list li:nth-child(2) {
+    margin-top: 8px;
+    margin-right: 8px;
+    top: 0;
+    right: 0; }
+  .nv-c-nav_list li:nth-child(3) {
+    margin-bottom: 8px;
+    margin-left: 8px;
+    bottom: 0;
+    left: 0; }
+  .nv-c-nav_list li:last-child {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    bottom: 0;
+    right: 0; }
+  .nv-c-navSocial {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #e4e4d1; }
+    .nv-c-navSocial-list {
+      padding: 16px;
+      width: 100%;
+      align-items: center;
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      font-size: 80%;
+      background-color: #2A2A2A;
+      clear: both; }
+      .nv-c-navSocial-list h1 {
+        text-align: center; }
+      .nv-c-navSocial-listItem {
+        padding: 16px; }
+      .nv-c-navSocial-list img {
+        margin: 0 auto; }
+    .nv-c-navSocial-btn {
+      background: transparent;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 48.9%;
+      display: block;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      width: 1px;
+      height: 2px;
+      text-align: center;
+      clear: both; }
+
+/*
+*************************************************
+
+Novum
+wrapper
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-wrapper {
+  background: rgba(17, 17, 17, 0.897);
+  height: 60%;
+  margin-left: 8px;
+  margin-right: 8px;
+  overflow: scroll;
+  position: fixed;
+  z-index: 2;
+  top: 30%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 8px; }
+  @media screen and (min-width: 950px) {
+    .nv-c-wrapper {
+      top: 32px;
+      height: 90%; }
+      .nv-c-wrapper .home {
+        width: 10%; } }
+
+/*
+*************************************************
+
+Novum
+intro
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-intro {
+  width: 100%;
+  float: left;
+  z-index: 2;
+  top: 0;
+  left: 0; }
+  @media screen and (min-width: 950px) {
+    .nv-c-introFlag {
+      width: 15%;
+      margin: 0;
+      float: right;
+      padding: 10%;
+      font-size: 60px;
+      line-height: 70px;
+      text-align: left; } }
+  .nv-c-introContent {
+    width: 100%;
+    box-sizing: border-box; }
+    @media screen and (min-width: 950px) {
+      .nv-c-introContent {
+        width: 50%;
+        margin: 0;
+        margin-top: 16px;
+        padding: 10%;
+        text-align: left;
+        float: left;
+        border-right: 1px solid #696969; } }
+
+.nv-c-bio {
+  width: 100%;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .nv-c-bioHeadshot {
+    width: 200px;
+    margin-bottom: 50px; }
+  .nv-c-bioInfo {
+    margin: 0 auto; }
+    @media screen and (min-width: 950px) {
+      .nv-c-bioInfo {
+        max-width: 700px; } }
+
+/*
+*************************************************
+
+Novum
+Home
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-home {
+  width: auto;
+  margin: 0 auto; }
+  .nv-c-home a {
+    display: none; }
+    .nv-c-home a:before {
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 2.5px;
+      background: -webkit-linear-gradient(left top, #531247, #a4137d, #b81380, #cc1581, #e01981);
+      transform: scaleX(0); }
+    .nv-c-home a:hover:before {
+      transform: scaleX(1); }
+    .nv-c-home a:before, .nv-c-home a:after {
+      content: '';
+      position: absolute;
+      transition: transform .3s ease; }
+    @media screen and (min-width: 950px) {
+      .nv-c-home a {
+        display: block;
+        padding-left: 8px; } }
+
+/*
+*************************************************
+
+Novum
+events-wrap
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-events {
+  width: 100%;
+  background: rgba(17, 17, 17, 0.897);
+  height: 60%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 8px; }
+  .nv-c-events-wrap {
+    width: 100%;
+    position: relative; }
+  @media screen and (min-width: 950px) {
+    .nv-c-events {
+      top: 32px;
+      height: 90%; } }
+
+/*
+*************************************************
+
+Novum
+List 
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-events_listitem {
+  margin-left: 0;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #f171b8;
+  box-shadow: 5px 10px 18px #473543;
+  max-height: 600px;
+  overflow: hidden; }
+  @media screen and (min-width: 950px) {
+    .nv-c-events_listitem {
+      margin-top: 32px; } }
+  .nv-c-events_listitem img {
+    height: auto;
+    width: 100%; }
+    @media screen and (min-width: 950px) {
+      .nv-c-events_listitem img {
+        width: 100%;
+        max-height: 1000px; } }
+
+.nv-c-events_listitem--blue {
+  margin-left: 0;
+  margin-top: 8px;
+  margin-bottom: 28px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #1b26c2;
+  box-shadow: 5px 10px 18px #303046;
+  max-height: 400px;
+  overflow: hidden;
+  display: none; }
+  @media screen and (min-width: 950px) {
+    .nv-c-events_listitem--blue {
+      width: 100%;
+      max-height: 1000px;
+      margin-top: 32px; } }
+  .nv-c-events_listitem--blue img {
+    height: auto;
+    width: 100%; }
+    @media screen and (min-width: 950px) {
+      .nv-c-events_listitem--blue img {
+        width: 100%;
+        max-height: 1000px; } }
+
+/*
+*************************************************
+
+Novum
+Events Header
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-eventsHeader {
+  top: 30%;
+  left: 50%;
+  margin-left: -125px;
+  width: 250px;
+  padding: 16px;
+  position: absolute;
+  background: rgba(17, 17, 17, 0.897);
+  border-radius: 7%; }
+  @media screen and (min-width: 950px) {
+    .nv-c-eventsHeader {
+      width: 650px;
+      padding: 48px;
+      left: 50%;
+      margin-left: -350px;
+      border-radius: 1%;
+      font-size: 32px; } }
+  .nv-c-eventsHeader_date {
+    padding: 8px; }
+    @media screen and (min-width: 950px) {
+      .nv-c-eventsHeader_date {
+        width: 600px;
+        padding: 24px;
+        font-size: 2em;
+        line-height: 64px;
+        letter-spacing: .1em; } }
+  .nv-c-eventsHeader_cta {
+    text-align: center; }
+    .nv-c-eventsHeader_cta-button {
+      background: #c90057;
+      font-size: .8em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 16px 25px;
+      color: #ffffff;
+      border: none;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -webkit-appearance: none; }
+  .nv-c-eventsHeader--blue {
+    display: none; }
+    .nv-c-eventsHeader--blue_cta {
+      text-align: center; }
+
+.nv-c-merch-wrap {
+  width: 100%;
+  background: rgba(17, 17, 17, 0.897);
+  height: 60%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 8px; }
+  @media screen and (min-width: 950px) {
+    .nv-c-merch-wrap {
+      height: 90%;
+      overflow: scroll;
+      position: absolute;
+      z-index: 2;
+      top: 32px;
+      left: 0;
+      box-sizing: border-box; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.nv-c-eventsHeader-gallery {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.nv-c-onerow {
+  width: 100%;
+  background: rgba(17, 17, 17, 0.897);
+  height: 60%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 8px; }
+  @media screen and (min-width: 950px) {
+    .nv-c-onerow {
+      top: 32px;
+      left: 50%;
+      width: 625px;
+      margin-left: -312.5px;
+      height: 90%; } }
+  .nv-c-onerow img {
+    width: 100%;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px; }

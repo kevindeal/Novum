@@ -1,0 +1,110 @@
+/*
+*************************************************
+
+Novum
+header
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-header {
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  left: 0; }
+  .nv-c-header_logo img {
+    margin-bottom: 20px;
+    margin-top: 32px;
+    margin-left: 8px;
+    margin-right: 8px; }
+
+.nv-c-nav {
+  width: 100%;
+  background: black;
+  z-index: 2;
+  top: 0;
+  left: 0; }
+  .nv-c-nav_list li {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 3px; }
+    .nv-c-nav_list li:before {
+      left: 0;
+      bottom: 0;
+      width: 93%;
+      height: 2.5px;
+      background: -webkit-linear-gradient(left top, #531247, #a4137d, #b81380, #cc1581, #e01981);
+      transform: scaleX(0); }
+    .nv-c-nav_list li:hover:before {
+      transform: scaleX(1); }
+    .nv-c-nav_list li:before, .nv-c-nav_list li:after {
+      content: '';
+      position: absolute;
+      transition: transform .3s ease; }
+  .nv-c-nav_list li:first-child {
+    margin-top: 8px;
+    margin-left: 8px;
+    top: 0;
+    left: 0; }
+  .nv-c-nav_list li:nth-child(2) {
+    margin-top: 8px;
+    margin-right: 8px;
+    top: 0;
+    right: 0; }
+  .nv-c-nav_list li:nth-child(3) {
+    margin-bottom: 8px;
+    margin-left: 8px;
+    bottom: 0;
+    left: 0; }
+  .nv-c-nav_list li:last-child {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    bottom: 0;
+    right: 0; }
+  .nv-c-navSocial {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #e4e4d1; }
+    .nv-c-navSocial-list {
+      padding: 16px;
+      width: 100%;
+      align-items: center;
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      font-size: 80%;
+      background-color: #2A2A2A;
+      clear: both; }
+      .nv-c-navSocial-list h1 {
+        text-align: center; }
+      .nv-c-navSocial-listItem {
+        padding: 16px; }
+      .nv-c-navSocial-list img {
+        margin: 0 auto; }
+    .nv-c-navSocial-btn {
+      background: transparent;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 48.9%;
+      display: block;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      width: 1px;
+      height: 2px;
+      text-align: center;
+      clear: both; }

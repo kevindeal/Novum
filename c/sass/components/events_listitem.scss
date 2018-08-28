@@ -1,0 +1,88 @@
+/*
+*************************************************
+
+Novum
+List 
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv{
+    &-c{
+        &-events{
+            &_listitem{
+
+                margin-left:0;
+                margin-top:24px;
+                margin-bottom:28px;
+                width:100%;
+                position:relative;
+                
+                
+                border: 1px solid rgb(241, 113, 184);
+                box-shadow:5px 10px 18px #473543;
+                max-height:600px;
+                overflow:hidden;
+               
+                @media screen and (min-width: 950px) {
+                    margin-top:32px;
+                   
+                }
+                img{
+                    // background-image:url(/themes/novum/i/club.jpeg);
+                    height:auto;
+                    width:100%;
+                      
+                    @media screen and (min-width: 950px) {
+                        width:100%;
+                        max-height:1000px;
+                       
+                    }
+                    
+                } 
+               
+            }
+
+            //The button scss is on the layout page
+            &_listitem--blue{
+                margin-left:0;
+                margin-top:8px;
+                margin-bottom:28px;
+                width:100%;
+                position:relative;
+                
+                border: 1px solid rgb(27, 38, 194);
+                box-shadow:5px 10px 18px #303046;
+                max-height:400px;
+                overflow:hidden;
+
+                display:none;
+                
+                @media screen and (min-width: 950px) {
+                    width:100%;
+                    max-height:1000px;
+                   margin-top:32px;
+                }
+
+                img{
+                    // background-image:url(/themes/novum/i/club.jpeg);
+                    height:auto;
+                    width:100%;
+                      
+                    @media screen and (min-width: 950px) {
+                        width:100%;
+                        max-height:1000px;
+                       
+                    }
+                    
+                } 
+                
+            }
+            
+            
+        }
+    }
+}

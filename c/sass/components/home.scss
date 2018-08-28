@@ -1,0 +1,47 @@
+/*
+*************************************************
+
+Novum
+Home
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+
+.nv{
+    &-c{
+        &-home{
+
+            width:auto;
+            margin:0 auto;
+            a{
+                display:none;
+
+                &:before{
+                    left:0;
+                    top:0;
+                    width: 100%;
+                    height:2.5px;
+                    background: -webkit-linear-gradient( left top, #531247, #a4137d, #b81380, #cc1581, #e01981);
+                    transform:scaleX(0);
+                }
+                &:hover:before{
+                    transform:scaleX(1);
+                }
+                &:before, &:after {
+                    content: '';
+                    position: absolute;
+                    transition: transform .3s ease;
+                    // background:#e46dcc;
+                }
+                @media screen and (min-width: 950px) {
+                    display:block;
+                    padding-left:8px;
+                }
+            }
+        }
+    }
+}

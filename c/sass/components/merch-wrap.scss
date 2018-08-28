@@ -1,0 +1,33 @@
+.nv{
+    &-c{
+        &-merch{
+            &-wrap{
+                width:100%;
+                background:rgba(17, 17, 17, 0.897);
+                height:60%;
+                overflow:scroll;
+                position:absolute;
+                z-index: 2;
+                top:30%;
+                left:0;
+                box-sizing: border-box;
+                padding:8px;
+
+
+                @media screen and (min-width: 950px) {
+                    height:90%;
+                    overflow:scroll;
+                    position:absolute;
+                    z-index: 2;
+                    top:32px;
+                    left:0;
+                    box-sizing: border-box;
+                 
+                    
+                      
+                    
+                }
+            }
+        }
+    }
+}

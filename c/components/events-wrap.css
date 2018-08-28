@@ -1,0 +1,30 @@
+/*
+*************************************************
+
+Novum
+events-wrap
+
+Created by the epic Kevin Deal.
+http://kevindeal.superfriend.ly/
+
+Kevin Deal
+*************************************************
+*/
+.nv-c-events {
+  width: 100%;
+  background: rgba(17, 17, 17, 0.897);
+  height: 60%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 8px; }
+  .nv-c-events-wrap {
+    width: 100%;
+    position: relative; }
+  @media screen and (min-width: 950px) {
+    .nv-c-events {
+      top: 32px;
+      height: 90%; } }
